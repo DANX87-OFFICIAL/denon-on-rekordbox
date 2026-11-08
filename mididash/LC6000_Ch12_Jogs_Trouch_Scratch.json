@@ -1,0 +1,700 @@
+{
+  "preferences": {
+    "last_save": "2026-11-08T09:35:54.872Z",
+    "version": "0.4.3"
+  },
+  "devices": [
+    {
+      "class": "input",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash In - Steinberg UR22C Port1",
+      "in_ports": [],
+      "name": "Steinberg UR22C Port1",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "width": 214,
+      "x": -210,
+      "y": -100
+    },
+    {
+      "class": "input",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash In - Denon DJ LC6000 PRIME WD",
+      "in_ports": [],
+      "name": "Denon DJ LC6000 PRIME WD",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "width": 256,
+      "x": -252,
+      "y": -36
+    },
+    {
+      "class": "output",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash Out - Steinberg UR22C Port1",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "name": "Steinberg UR22C Port1",
+      "out_ports": [],
+      "width": 214,
+      "x": 646.3516012648299,
+      "y": -143.78448664926444
+    },
+    {
+      "class": "output",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash Out - Denon DJ LC6000 PRIME WD",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "name": "Denon DJ LC6000 PRIME WD",
+      "out_ports": [],
+      "width": 256,
+      "x": 657.2239167864124,
+      "y": -79.39156958396018
+    },
+    {
+      "class": "map",
+      "height": 116,
+      "id": "Map 1",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "minimized": false,
+      "name": "CH1 Jog Touch On",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "rule": {
+        "in_channel": -1,
+        "in_data1_max": 40,
+        "in_data1_min": 40,
+        "in_data2_max": 127,
+        "in_data2_min": 127,
+        "in_type": 9,
+        "out_channel": 0,
+        "out_data1_max": 54,
+        "out_data1_min": 54,
+        "out_data2_max": 127,
+        "out_data2_min": 127,
+        "out_type": 9,
+        "pull_data1": false,
+        "pull_data2": false
+      },
+      "width": 272,
+      "x": 70.85256587508596,
+      "y": -486.4868774736834
+    },
+    {
+      "class": "map",
+      "height": 116,
+      "id": "Map 2",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "minimized": false,
+      "name": "CH1 Jog Touch Off",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "rule": {
+        "in_channel": -1,
+        "in_data1_max": 40,
+        "in_data1_min": 40,
+        "in_data2_max": 0,
+        "in_data2_min": 0,
+        "in_type": 8,
+        "out_channel": 0,
+        "out_data1_max": 54,
+        "out_data1_min": 54,
+        "out_data2_max": 0,
+        "out_data2_min": 1,
+        "out_type": 9,
+        "pull_data1": false,
+        "pull_data2": false
+      },
+      "width": 274,
+      "x": 79.53887076083691,
+      "y": -348.825195918765
+    },
+    {
+      "class": "map",
+      "height": 116,
+      "id": "Map 3",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "minimized": false,
+      "name": "CH1 Jog Scratch CC",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "rule": {
+        "in_channel": -1,
+        "in_data1_max": 54,
+        "in_data1_min": 54,
+        "in_data2_max": -1,
+        "in_data2_min": -1,
+        "in_type": -1,
+        "out_channel": 0,
+        "out_data1_max": 34,
+        "out_data1_min": 34,
+        "out_data2_max": -1,
+        "out_data2_min": -1,
+        "out_type": -1,
+        "pull_data1": true,
+        "pull_data2": false
+      },
+      "width": 257,
+      "x": 90.3735636443681,
+      "y": -197.813356640221
+    },
+    {
+      "class": "script",
+      "error": null,
+      "height": 73,
+      "id": "Script 1",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "name": "Basic",
+      "out_ports": [
+        {
+          "id": "out",
+          "name": "out"
+        }
+      ],
+      "script": "local out_bytes = {}\n\n-- Copy the message so the incoming bytes remain unchanged\nfor i, byte in ipairs(bytes) do\n  out_bytes[i] = byte\nend\n\nlocal status = bytes[1]\nlocal cc = bytes[2]\nlocal input = bytes[3]\n\n--log(cc)\n-- log(input)\n\n-- 0xB0–0xBF are Control Change messages on channels 1–16\nif status >= 0xB0 and status <= 0xBF and cc == 34 then\n  local output\n\n  if input == 0 then\n  \toutput = 0\n  elseif input < 64 then\n    -- Forward: 1-63 dec\n    -- slow to fast\n    output = 64 + input\n  \t-- bend = 0.25\n   -- t = (input - 1) / 64.0 \n   -- output = 64 + 64 * math.pow(t, bend)\n  else  -- input > 64\n  \t--- Reverse: 127-64 dec\n  \t--- slow to fast\n    output = input-64\n    -- bend = 2.0\n    -- t = (input - 1) / 64.0 \n    -- output = 64 + 64 * math.pow(t, bend)\n  end\n  -- MIDI CC values must be in the range 0–127.\n  -- The formula gives -1 when input is 65, so clamp that case to 0.\n  if output < 0 then\n    output = 0\n  end\n  if output > 127 then\n    output = 127\n  end\n  out_bytes[3] = output\n---else:\n---\tend\nend\n\n-- Hardcode DT1 for DDJ-SX:\n-- 34d = 0x22\nout_bytes[2] = 33\n\nlog(out_bytes[3])\n\ntable.insert(res, {\n  port = \"out\",\n  bytes = out_bytes\n})\n",
+      "test_bytes": "0xb0 34 65",
+      "width": 102,
+      "x": 385.1276026562458,
+      "y": -145.63008838113484
+    },
+    {
+      "class": "map",
+      "height": 116,
+      "id": "Map 4",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "minimized": false,
+      "name": "CH2 JogTouch On",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "rule": {
+        "in_channel": -1,
+        "in_data1_max": 40,
+        "in_data1_min": 40,
+        "in_data2_max": 127,
+        "in_data2_min": 127,
+        "in_type": 9,
+        "out_channel": 1,
+        "out_data1_max": 54,
+        "out_data1_min": 54,
+        "out_data2_max": 127,
+        "out_data2_min": 127,
+        "out_type": 9,
+        "pull_data1": false,
+        "pull_data2": false
+      },
+      "width": 272,
+      "x": 83.95484621142316,
+      "y": 31.6201916924797
+    },
+    {
+      "class": "map",
+      "height": 116,
+      "id": "Map 5",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "minimized": false,
+      "name": "CH2 JogTouch Off",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "rule": {
+        "in_channel": -1,
+        "in_data1_max": 40,
+        "in_data1_min": 40,
+        "in_data2_max": 0,
+        "in_data2_min": 0,
+        "in_type": 8,
+        "out_channel": 1,
+        "out_data1_max": 54,
+        "out_data1_min": 54,
+        "out_data2_max": 1,
+        "out_data2_min": 1,
+        "out_type": 9,
+        "pull_data1": false,
+        "pull_data2": false
+      },
+      "width": 274,
+      "x": 85.3618796438648,
+      "y": 180.96612069365364
+    },
+    {
+      "class": "script",
+      "error": null,
+      "height": 73,
+      "id": "Script 2",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "name": "Basic",
+      "out_ports": [
+        {
+          "id": "out",
+          "name": "out"
+        }
+      ],
+      "script": "local out_bytes = {}\n\n-- Copy the message so the incoming bytes remain unchanged\nfor i, byte in ipairs(bytes) do\n  out_bytes[i] = byte\nend\n\nlocal status = bytes[1]\nlocal cc = bytes[2]\nlocal input = bytes[3]\n\n--log(cc)\n-- log(input)\n\n-- 0xB0–0xBF are Control Change messages on channels 1–16\nif status >= 0xB0 and status <= 0xBF and cc == 34 then\n  local output\n\n  if input == 0 then\n  \toutput = 0\n  elseif input < 64 then\n    -- Forward: 1-63 dec\n    -- slow to fast\n    output = 64 + input\n  \t-- bend = 0.25\n   -- t = (input - 1) / 64.0 \n   -- output = 64 + 64 * math.pow(t, bend)\n  else  -- input > 64\n  \t--- Reverse: 127-64 dec\n  \t--- slow to fast\n    output = input-64\n    -- bend = 2.0\n    -- t = (input - 1) / 64.0 \n    -- output = 64 + 64 * math.pow(t, bend)\n  end\n  -- MIDI CC values must be in the range 0–127.\n  -- The formula gives -1 when input is 65, so clamp that case to 0.\n  if output < 0 then\n    output = 0\n  end\n  if output > 127 then\n    output = 127\n  end\n  out_bytes[3] = output\n---else:\n---\tend\nend\n\n-- Hardcode DT1 for DDJ-SX:\n-- 34d = 0x22\nout_bytes[2] = 33\n\nlog(out_bytes[3])\n\ntable.insert(res, {\n  port = \"out\",\n  bytes = out_bytes\n})\n",
+      "width": 102,
+      "x": 378.9736158915531,
+      "y": 288.2589895824722
+    },
+    {
+      "class": "map",
+      "height": 116,
+      "id": "Map 6",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "minimized": false,
+      "name": "CH2 Jog Scratch CC",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "rule": {
+        "in_channel": -1,
+        "in_data1_max": 54,
+        "in_data1_min": 54,
+        "in_data2_max": -1,
+        "in_data2_min": -1,
+        "in_type": -1,
+        "out_channel": 1,
+        "out_data1_max": 34,
+        "out_data1_min": 34,
+        "out_data2_max": -1,
+        "out_data2_min": -1,
+        "out_type": -1,
+        "pull_data1": false,
+        "pull_data2": false
+      },
+      "width": 257,
+      "x": 74.13677109298315,
+      "y": 323.84466151807845
+    },
+    {
+      "class": "input",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash In - LC6000 PRIME 1 LC6000 PRIME Controller",
+      "in_ports": [],
+      "name": "LC6000 PRIME 1 LC6000 PRIME Controller",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "width": 346,
+      "x": -404.6537454248114,
+      "y": 28
+    },
+    {
+      "class": "input",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash In - LC6000 PRIME 2 LC6000 PRIME Controller",
+      "in_ports": [],
+      "name": "LC6000 PRIME 2 LC6000 PRIME Controller",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "width": 348,
+      "x": -413,
+      "y": 92
+    },
+    {
+      "class": "output",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash Out - LC6000 PRIME 1 LC6000 PRIME Controller",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "name": "LC6000 PRIME 1 LC6000 PRIME Controller",
+      "out_ports": [],
+      "width": 346,
+      "x": 619.2976698938244,
+      "y": 13.536143472013276
+    },
+    {
+      "class": "output",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash Out - LC6000 PRIME 2 LC6000 PRIME Controller",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "name": "LC6000 PRIME 2 LC6000 PRIME Controller",
+      "out_ports": [],
+      "width": 348,
+      "x": 609.0110616931231,
+      "y": 84.76807173600663
+    },
+    {
+      "class": "output",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash Out - PIONEER DDJ-SX",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "name": "PIONEER DDJ-SX",
+      "out_ports": [],
+      "width": 176,
+      "x": 565.3727466187629,
+      "y": -355.843763580213
+    },
+    {
+      "class": "input",
+      "disconnected": true,
+      "height": 40,
+      "id": "Mdash In - PIONEER DDJ-SX",
+      "in_ports": [],
+      "name": "PIONEER DDJ-SX",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "width": 176,
+      "x": -180.41938514081608,
+      "y": -556.6343546437556
+    },
+    {
+      "class": "monitor",
+      "height": 213,
+      "id": "Monitor 1",
+      "in_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "name": "Monitor 1",
+      "out_ports": [
+        {
+          "id": "*",
+          "name": "*"
+        }
+      ],
+      "width": 314,
+      "x": 488.2687980361091,
+      "y": -647.4908422020058
+    }
+  ],
+  "connectors": [
+    {
+      "from": "Map 3",
+      "from_anchor": {
+        "x": 250.953125,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Map 3::Script 1::*::*",
+      "to": "Script 1",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Map 6",
+      "from_anchor": {
+        "x": 250.953125,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Map 6::Script 2::*::*",
+      "to": "Script 2",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Mdash In - LC6000 PRIME 1 LC6000 PRIME Controller",
+      "from_anchor": {
+        "x": 340.125,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Mdash In - LC6000 PRIME 1 LC6000 PRIME Controller::Map 1::*::*",
+      "to": "Map 1",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Mdash In - LC6000 PRIME 1 LC6000 PRIME Controller",
+      "from_anchor": {
+        "x": 340.125,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Mdash In - LC6000 PRIME 1 LC6000 PRIME Controller::Map 2::*::*",
+      "to": "Map 2",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Mdash In - LC6000 PRIME 1 LC6000 PRIME Controller",
+      "from_anchor": {
+        "x": 340.125,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Mdash In - LC6000 PRIME 1 LC6000 PRIME Controller::Map 3::*::*",
+      "to": "Map 3",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Mdash In - LC6000 PRIME 2 LC6000 PRIME Controller",
+      "from_anchor": {
+        "x": 342,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Mdash In - LC6000 PRIME 2 LC6000 PRIME Controller::Map 4::*::*",
+      "to": "Map 4",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Mdash In - LC6000 PRIME 2 LC6000 PRIME Controller",
+      "from_anchor": {
+        "x": 342,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Mdash In - LC6000 PRIME 2 LC6000 PRIME Controller::Map 5::*::*",
+      "to": "Map 5",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Mdash In - LC6000 PRIME 2 LC6000 PRIME Controller",
+      "from_anchor": {
+        "x": 342,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Mdash In - LC6000 PRIME 2 LC6000 PRIME Controller::Map 6::*::*",
+      "to": "Map 6",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Map 2",
+      "from_anchor": {
+        "x": 267.828125,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Map 2::Mdash Out - PIONEER DDJ-SX::*::*",
+      "to": "Mdash Out - PIONEER DDJ-SX",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Map 1",
+      "from_anchor": {
+        "x": 266.078125,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Map 1::Mdash Out - PIONEER DDJ-SX::*::*",
+      "to": "Mdash Out - PIONEER DDJ-SX",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Script 1",
+      "from_anchor": {
+        "x": 95.53125,
+        "y": 52.5
+      },
+      "from_port": "out",
+      "id": "Script 1::Mdash Out - PIONEER DDJ-SX::out::*",
+      "to": "Mdash Out - PIONEER DDJ-SX",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Map 4",
+      "from_anchor": {
+        "x": 266.078125,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Map 4::Mdash Out - PIONEER DDJ-SX::*::*",
+      "to": "Mdash Out - PIONEER DDJ-SX",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Map 5",
+      "from_anchor": {
+        "x": 267.828125,
+        "y": 19
+      },
+      "from_port": "*",
+      "id": "Map 5::Mdash Out - PIONEER DDJ-SX::*::*",
+      "to": "Mdash Out - PIONEER DDJ-SX",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    },
+    {
+      "from": "Script 2",
+      "from_anchor": {
+        "x": 95.53125,
+        "y": 52.5
+      },
+      "from_port": "out",
+      "id": "Script 2::Mdash Out - PIONEER DDJ-SX::out::*",
+      "to": "Mdash Out - PIONEER DDJ-SX",
+      "to_anchor": {
+        "x": 6,
+        "y": 19
+      },
+      "to_port": "*",
+      "type": "hsmooth"
+    }
+  ]
+}

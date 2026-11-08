@@ -1,0 +1,247 @@
+@file,1,PIONEER DDJ-SX
+NoFunction,,Button,9447,,,,,9447,,,,,,FX1-1 Effect On/Off
+NoFunction,,Button,9448,,,,,9448,,,,,,FX1-2 Effect On/Off
+NoFunction,,Button,9449,,,,,9449,,,,,,FX1-3 Effect On/Off
+NoFunction,,Button,9463,,,,,9463,,,,,,FX select
+NoFunction,,Button,9464,,,,,9464,,,,,,FX select/No function when single mode
+NoFunction,,Button,9465,,,,,9465,,,,,,FX select/No function when single mode
+NoFunction,,Button,9466,,,,,9466,,,,,,Select FX1 FX mode
+NoFunction,,Button,9547,,,,,9547,,,,,,FX2-1 Effect On/Off
+NoFunction,,Button,9548,,,,,9548,,,,,,FX2-2 Effect On/Off
+NoFunction,,Button,9549,,,,,9549,,,,,,FX2-3 Effect On/Off
+NoFunction,,Button,9563,,,,,9563,,,,,,FX select
+NoFunction,,Button,9564,,,,,9564,,,,,,FX select/No function when single mode
+NoFunction,,Button,9565,,,,,9565,,,,,,FX select/No function when single mode
+NoFunction,,Button,9566,,,,,9566,,,,,,Select FX2 FX mode
+NoFunction,,Button,964C,,,,,964C,,,,,,FX1 On/Off
+NoFunction,,Button,964D,,,,,964D,,,,,,FX1 On/Off
+NoFunction,,Button,964E,,,,,964E,,,,,,FX1 On/Off
+NoFunction,,Button,964F,,,,,964F,,,,,,FX1 On/Off
+NoFunction,,Button,9650,,,,,9650,,,,,,FX2 On/Off
+NoFunction,,Button,9651,,,,,9651,,,,,,FX2 On/Off
+NoFunction,,Button,9652,,,,,9652,,,,,,FX2 On/Off
+NoFunction,,Button,9653,,,,,9653,,,,,,FX2 On/Off
+NoFunction,,Button,9654,,,,,9654,,,,,,FX2 On/Off
+NoFunction,,Button,9655,,,,,9655,,,,,,FX2 On/Off
+NoFunction,,Button,9656,,,,,9656,,,,,,FX2 On/Off
+NoFunction,,Button,9657,,,,,9657,,,,,,FX2 On/Off
+NoFunction,,Button,9658,,,,,9658,,,,,,Sort by BPM
+NoFunction,,Button,9659,,,,,9659,,,,,,Sort by SONG
+NoFunction,,Button,9660,,,,,9660,,,,,,Sort by TRACK#
+NoFunction,,Button,9661,,,,,9661,,,,,,Sort by ARTIST
+NoFunction,,Button,9662,,,,,9662,,,,,,Headphone CUE On/Off
+NoFunction,,Button,9670,,,,,9670,,,,,,FX1 On/Off
+NoFunction,,Button,9671,,,,,9671,,,,,,FX1 On/Off
+NoFunction,,Button,9672,,,,,9672,,,,,,FX1 On/Off
+NoFunction,,Button,9673,,,,,9673,,,,,,FX1 On/Off
+NoFunction,,Button,,9003,9103,9203,9303,,9003,9105,9203,9303,,Change Domain (down)
+NoFunction,,Button,,9005,9105,9205,9305,,9005,9132,9205,9305,,Change Jump Range (1/16x)
+NoFunction,,Button,,9007,9107,9207,9307,,9007,9103,9207,9307,,Change Domain (down)
+NoFunction,,Button,,900A,910A,920A,930A,,900A,910A,920A,9364,,Beat Grid Slide
+NoFunction,,Button,,900B,910B,920B,930B,,900B,910B,920B,931A,,Play/Pause
+NoFunction,,Button,,900C,910C,920C,930C,,900C,910C,920C,9314,,Cue Set/Play Cue Back
+NoFunction,,Button,,9010,9110,9210,9310,,9010,9110,9210,9312,,Loop in/Loop in adjust
+NoFunction,,Button,,9011,9111,9211,9311,,9011,9111,9211,9362,,Loop out/Loop out adjust
+NoFunction,,Button,,9012,9112,9212,9312,,9012,9112,9212,9313,,Loop Size Select (Half)
+NoFunction,,Button,,9013,9113,9213,9313,,9013,9113,9213,9348,,Loop Size Select (Double)
+NoFunction,,Button,,9014,9114,9214,9314,,9014,9114,9214,9350,,Auto Loop On/Off
+NoFunction,,Button,,9015,9115,9215,9315,,9015,9115,9215,9363,,SLIP Reverse
+NoFunction,,Button,,901A,911A,921A,931A,,901A,911A,921A,935C,,MasterTempo On/Off
+NoFunction,,Button,,901B,911B,921B,931B,,901B,9169,9269,9369,,HOT CUE Mode On/Off
+NoFunction,,Button,,901E,911E,921E,931E,,901E,912D,922D,932D,,PAD FX1 Mode On/Off
+NoFunction,,Button,,9020,9120,9220,9320,,9020,9120,9220,9320,,SLICER Mode On/Off
+NoFunction,,Button,,9022,9122,9222,9322,,9022,9122,9222,9322,,SAMPLER Mode On/Off
+NoFunction,,Button,,9024,9124,9224,9324,,9024,911B,921B,931B,,Call Memory Cue (<)
+NoFunction,,Button,,9025,9125,9225,9325,,9025,912C,922C,932C,,Adjust Beat (down)
+NoFunction,,Button,,9026,9126,9226,9326,,9026,917D,9228,9328,,Change Roll (down)
+NoFunction,,Button,,9027,9127,9227,9327,,9027,9127,9227,9327,,Change Bank (down)
+NoFunction,,Button,,9028,9128,9228,9328,,9028,916B,926B,936B,,Change Jump Range (1/2x)
+NoFunction,,Button,,9029,9129,9229,9329,,9029,911E,921E,931E,,Adjust Beat (down)
+NoFunction,,Button,,902A,912A,922A,932A,,902A,9128,9226,9326,,Change Roll (down)
+NoFunction,,Button,,902C,912C,922C,932C,,902C,9124,9224,9324,,Call Memory Cue (>)
+NoFunction,,Button,,902D,912D,922D,932D,,902D,9125,9225,9325,,Adjust Beat (up)
+NoFunction,,Button,,902E,912E,922E,932E,,902E,912A,922E,932E,,Change Roll (up)
+NoFunction,,Button,,902F,912F,922F,932F,,902F,912F,922F,932F,,Change Bank (up)
+NoFunction,,Button,,9030,9130,9230,9330,,9030,9126,922A,932A,,Change Jump Range (2x)
+NoFunction,,Button,,9031,9131,9231,9331,,9031,9129,9229,9329,,Adjust Beat (up)
+NoFunction,,Button,,9032,9132,9232,9332,,9032,912E,9232,9332,,Change Roll (up)
+NoFunction,,Button,,9038,9138,9238,9338,,9038,9138,9238,934D,,Reverse
+NoFunction,,Button,,9040,9140,9240,9340,,9040,9140,9240,9338,,SLIP mode On/Off
+NoFunction,,Button,,9041,9141,9241,9341,,9041,9141,9241,9341,,Velocity Mode On/Off
+NoFunction,,Button,,9047,9147,9247,9347,,9047,9147,9247,930B,,Play/Pause
+NoFunction,,Button,,9048,9148,9248,9348,,9048,9148,9248,930A,,Jump to track start
+NoFunction,,Button,,904C,914C,924C,934C,,904C,914C,924C,9347,,RE-TRIGGER
+NoFunction,,Button,,904D,914D,924D,934D,,904D,914D,924D,934C,,Reloop/Exit
+NoFunction,,Button,,9050,9150,9250,9350,,9050,9150,9250,930D,,Loop Active/Non active
+NoFunction,,Button,,9054,9154,9254,9354,,9054,9154,9254,9354,,Headphone CUE On/Off
+NoFunction,,Button,,9058,9158,9258,9358,,9058,9158,9258,9315,,Sync On/Off
+NoFunction,,Button,,905C,915C,925C,935C,,905C,915C,925C,9311,,Master On/Off
+NoFunction,,Button,,9060,9160,9260,9360,,9060,9160,9260,9368,,Tempo Range
+NoFunction,,Button,,9061,9161,9261,9361,,9061,9161,9261,9310,,Loop Move left
+NoFunction,,Button,,9062,9162,9262,9362,,9062,9162,9262,9361,,Loop Move right
+NoFunction,,Button,,9063,9163,9263,9363,,9063,9163,9263,9340,,SLIP mode On/Off
+NoFunction,,Button,,9064,9164,9264,9364,,9064,9164,9264,9365,,Beat Adjust 1/2x
+NoFunction,,Button,,9065,9165,9265,9365,,9065,9165,9265,9379,,Beat Adjust 2x
+NoFunction,,Button,,9068,9168,9268,9368,,9068,9168,9268,9358,,TAP BPM
+NoFunction,,Button,,9069,9169,9269,9369,,9069,9130,9230,9330,,BEAT JUMP Mode On/Off
+NoFunction,,Button,,906B,916B,926B,936B,,906B,9131,9231,9331,,PAD FX2 Mode On/Off
+NoFunction,,Button,,906D,916D,926D,936D,,906D,916D,926D,936D,,SLICER LOOP Mode On/Off
+NoFunction,,Button,,9079,9179,9279,9379,,9079,9179,9279,930C,,Beat Grid Adjust
+NoFunction,,Button,,907B,917B,927B,937B,,907B,917B,927B,937B,,Change Domain (up)
+NoFunction,,Button,,907D,917D,927D,937D,,907D,9107,927D,937D,,Change Jump Range (16x)
+NoFunction,,Button,,907F,917F,927F,937F,,907F,917F,927F,937F,,Change Domain (up)
+NoFunction,,DdjSxPad,,9700,9800,9900,9A00,,9700,9800,9900,9A00,,HOT CUE1
+NoFunction,,DdjSxPad,,9701,9801,9901,9A01,,9701,9801,9901,9A01,,HOT CUE2
+NoFunction,,DdjSxPad,,9702,9802,9902,9A02,,9702,9802,9902,9A02,,HOT CUE3
+NoFunction,,DdjSxPad,,9703,9803,9903,9A03,,9703,9803,9903,9A03,,HOT CUE 4
+NoFunction,,DdjSxPad,,9704,9804,9904,9A04,,9704,9804,9904,9A04,,HOT CUE 5
+NoFunction,,DdjSxPad,,9705,9805,9905,9A05,,9705,9805,9905,9A05,,HOT CUE 6
+NoFunction,,DdjSxPad,,9706,9806,9906,9A06,,9706,9806,9906,9A06,,HOT CUE 7
+NoFunction,,DdjSxPad,,9707,9807,9907,9A07,,9707,9807,9907,9A07,,HOT CUE 8
+NoFunction,,DdjSxPad,,9708,9808,9908,9A08,,9708,9808,9908,9A08,,Delete HOT CUE1
+NoFunction,,DdjSxPad,,9709,9809,9909,9A09,,9709,9809,9909,9A09,,Delete HOT CUE2
+NoFunction,,DdjSxPad,,970A,980A,990A,9A0A,,970A,980A,990A,9A0A,,Delete HOT CUE3
+NoFunction,,DdjSxPad,,970B,980B,990B,9A0B,,970B,980B,990B,9A0B,,Delete HOT CUE 4
+NoFunction,,DdjSxPad,,970C,980C,990C,9A0C,,970C,980C,990C,9A0C,,Delete HOT CUE 5
+NoFunction,,DdjSxPad,,970D,980D,990D,9A0D,,970D,980D,990D,9A0D,,Delete HOT CUE 6
+NoFunction,,DdjSxPad,,970E,980E,990E,9A0E,,970E,980E,990E,9A0E,,Delete HOT CUE 7
+NoFunction,,DdjSxPad,,970F,980F,990F,9A0F,,970F,980F,990F,9A0F,,Delete HOT CUE 8
+NoFunction,,DdjSxPad,,9710,9810,9910,9A10,,9710,9810,9910,9A10,,PAD FX1 Slot1 (momentary)
+NoFunction,,DdjSxPad,,9711,9811,9911,9A11,,9711,9811,9911,9A11,,PAD FX1 Slot2 (momentary)
+NoFunction,,DdjSxPad,,9712,9812,9912,9A12,,9712,9812,9912,9A12,,PAD FX1 Slot3 (momentary)
+NoFunction,,DdjSxPad,,9713,9813,9913,9A13,,9713,9813,9913,9A13,,PAD FX1 Slot4 (momentary)
+NoFunction,,DdjSxPad,,9714,9814,9914,9A14,,9714,9814,9914,9A14,,PAD FX1 Slot5 (momentary)
+NoFunction,,DdjSxPad,,9715,9815,9915,9A15,,9715,9815,9915,9A15,,PAD FX1 Slot6 (momentary)
+NoFunction,,DdjSxPad,,9716,9816,9916,9A16,,9716,9816,9916,9A16,,PAD FX1 Slot7 (momentary)
+NoFunction,,DdjSxPad,,9717,9817,9917,9A17,,9717,9817,9917,9A17,,PAD FX1 Slot8 (momentary)
+NoFunction,,DdjSxPad,,9720,9820,9920,9A20,,9720,9820,9920,9A20,,SLICER 1 Play
+NoFunction,,DdjSxPad,,9721,9821,9921,9A21,,9721,9821,9921,9A21,,SLICER 2 Play
+NoFunction,,DdjSxPad,,9722,9822,9922,9A22,,9722,9822,9922,9A22,,SLICER 3 Play
+NoFunction,,DdjSxPad,,9723,9823,9923,9A23,,9723,9823,9923,9A23,,SLICER 4 Play
+NoFunction,,DdjSxPad,,9724,9824,9924,9A24,,9724,9824,9924,9A24,,SLICER 5 Play
+NoFunction,,DdjSxPad,,9725,9825,9925,9A25,,9725,9825,9925,9A25,,SLICER 6 Play
+NoFunction,,DdjSxPad,,9726,9826,9926,9A26,,9726,9838,9938,9A38,,SLICER 7 Play
+NoFunction,,DdjSxPad,,9727,9827,9927,9A27,,9727,9867,9967,9A67,,SLICER 8 Play
+NoFunction,,DdjSxPad,,972C,982C,992C,9A2C,,972C,9864,9964,9A64,,DOMAIN MOVE (Left)
+NoFunction,,DdjSxPad,,972D,982D,992D,9A2D,,972D,9865,9965,9A65,,DOMAIN MOVE (Right)
+NoFunction,,DdjSxPad,,9730,9830,9930,9A30,,9730,9878,9978,9A78,,Sample Slot 1 play
+NoFunction,,DdjSxPad,,9731,9831,9931,9A31,,9731,9831,9931,9A31,,Sample Slot2 play
+NoFunction,,DdjSxPad,,9732,9832,9932,9A32,,9732,9832,9932,9A32,,Sample Slot 3 play
+NoFunction,,DdjSxPad,,9733,9833,9933,9A33,,9733,9833,9933,9A33,,Sample Slot 4 play
+NoFunction,,DdjSxPad,,9734,9834,9934,9A34,,9734,9834,9934,9A34,,Sample Slot 5 play
+NoFunction,,DdjSxPad,,9735,9835,9935,9A35,,9735,9835,9935,9A35,,Sample Slot 6 play
+NoFunction,,DdjSxPad,,9736,9836,9936,9A36,,9736,9836,9936,9A36,,Sample Slot 7 play
+NoFunction,,DdjSxPad,,9737,9837,9937,9A37,,9737,9837,9937,9A37,,Sample Slot 8 play
+NoFunction,,DdjSxPad,,9738,9838,9938,9A38,,9738,9830,9930,9A30,,Sample Slot 1 stop
+NoFunction,,DdjSxPad,,9739,9839,9939,9A39,,9739,9839,9939,9A39,,Sample Slot2 stop
+NoFunction,,DdjSxPad,,973A,983A,993A,9A3A,,973A,983A,993A,9A3A,,Sample Slot 3 stop
+NoFunction,,DdjSxPad,,973B,983B,993B,9A3B,,973B,983B,993B,9A3B,,Sample Slot 4 stop
+NoFunction,,DdjSxPad,,973C,983C,993C,9A3C,,973C,983C,993C,9A3C,,Sample Slot 5 stop
+NoFunction,,DdjSxPad,,973D,983D,993D,9A3D,,973D,983D,993D,9A3D,,Sample Slot 6 stop
+NoFunction,,DdjSxPad,,973E,983E,993E,9A3E,,973E,983E,993E,9A3E,,Sample Slot 7 stop
+NoFunction,,DdjSxPad,,973F,983F,993F,9A3F,,973F,983F,993F,9A3F,,Sample Slot 8 stop
+NoFunction,,DdjSxPad,,9740,9840,9940,9A40,,9740,9841,9941,9A41,,BEAT JUMP (REV1)
+NoFunction,,DdjSxPad,,9741,9841,9941,9A41,,9741,9842,9942,9A42,,BEAT JUMP (FWD1)
+NoFunction,,DdjSxPad,,9742,9842,9942,9A42,,9742,9843,9943,9A43,,BEAT JUMP (REV2)
+NoFunction,,DdjSxPad,,9743,9843,9943,9A43,,9743,9844,9944,9A44,,BEAT JUMP (FWD2)
+NoFunction,,DdjSxPad,,9744,9844,9944,9A44,,9744,986C,996C,9A6C,,BEAT JUMP (REV3)
+NoFunction,,DdjSxPad,,9745,9845,9945,9A45,,9745,986D,996D,9A6D,,BEAT JUMP (FWD3)
+NoFunction,,DdjSxPad,,9746,9846,9946,9A46,,9746,9866,9966,9A66,,BEAT JUMP (REV4)
+NoFunction,,DdjSxPad,,9747,9847,9947,9A47,,9747,9827,9927,9A27,,BEAT JUMP (FWD4)
+NoFunction,,DdjSxPad,,9750,9850,9950,9A50,,9750,9850,9950,9A50,,PAD FX2 Slot1 (momentary)
+NoFunction,,DdjSxPad,,9751,9851,9951,9A51,,9751,9851,9951,9A51,,PAD FX2 Slot2 (momentary)
+NoFunction,,DdjSxPad,,9752,9852,9952,9A52,,9752,9852,9952,9A52,,PAD FX2 Slot3 (momentary)
+NoFunction,,DdjSxPad,,9753,9853,9953,9A53,,9753,9853,9953,9A53,,PAD FX2 Slot4 (momentary)
+NoFunction,,DdjSxPad,,9754,9854,9954,9A54,,9754,9854,9954,9A54,,PAD FX2 Slot5 (momentary)
+NoFunction,,DdjSxPad,,9755,9855,9955,9A55,,9755,9855,9955,9A55,,PAD FX2 Slot6 (momentary)
+NoFunction,,DdjSxPad,,9756,9856,9956,9A56,,9756,9856,9956,9A56,,PAD FX2 Slot7 (momentary)
+NoFunction,,DdjSxPad,,9757,9857,9957,9A57,,9757,9857,9957,9A57,,PAD FX2 Slot8 (momentary)
+NoFunction,,DdjSxPad,,9760,9860,9960,9A60,,9760,9861,9961,9A61,,SLICER LOOP
+NoFunction,,DdjSxPad,,9761,9861,9961,9A61,,9761,9862,9962,9A62,,SLICER LOOP
+NoFunction,,DdjSxPad,,9762,9862,9962,9A62,,9762,9863,9963,9A63,,SLICER LOOP
+NoFunction,,DdjSxPad,,9763,9863,9963,9A63,,9763,982C,992C,9A2C,,SLICER LOOP
+NoFunction,,DdjSxPad,,9764,9864,9964,9A64,,9764,982D,992D,9A2D,,SLICER LOOP
+NoFunction,,DdjSxPad,,9765,9865,9965,9A65,,9765,9826,9926,9A26,,SLICER LOOP
+NoFunction,,DdjSxPad,,9766,9866,9966,9A66,,9766,9847,9947,9A47,,SLICER LOOP
+NoFunction,,DdjSxPad,,9767,9867,9967,9A67,,9767,9870,9970,9A70,,SLICER LOOP
+NoFunction,,DdjSxPad,,976C,986C,996C,9A6C,,976C,9845,9945,9A45,,No function assigned here
+NoFunction,,DdjSxPad,,976D,986D,996D,9A6D,,976D,9846,9946,9A46,,No function assigned here
+NoFunction,,DdjSxPad,,9770,9870,9970,9A70,,9770,9840,9940,9A40,,Sample Slot1 Play
+NoFunction,,DdjSxPad,,9771,9871,9971,9A71,,9771,9871,9971,9A71,,Sample Slot2 Play
+NoFunction,,DdjSxPad,,9772,9872,9972,9A72,,9772,9872,9972,9A72,,Sample Slot3 Play
+NoFunction,,DdjSxPad,,9773,9873,9973,9A73,,9773,9873,9973,9A73,,Sample Slot4 Play
+NoFunction,,DdjSxPad,,9774,9874,9974,9A74,,9774,9874,9974,9A74,,Sample Slot5 Play
+NoFunction,,DdjSxPad,,9775,9875,9975,9A75,,9775,9875,9975,9A75,,Sample Slot6 Play
+NoFunction,,DdjSxPad,,9776,9876,9976,9A76,,9776,9876,9976,9A76,,Sample Slot7 Play
+NoFunction,,DdjSxPad,,9777,9877,9977,9A77,,9777,9877,9977,9A77,,Sample Slot8 Play
+NoFunction,,DdjSxPad,,9778,9878,9978,9A78,,9778,9860,9960,9A60,,Sample Slot 1 stop
+NoFunction,,DdjSxPad,,9779,9879,9979,9A79,,9779,9879,9979,9A79,,Sample Slot 2 stop
+NoFunction,,DdjSxPad,,977A,987A,997A,9A7A,,977A,987A,997A,9A7A,,Sample Slot 3 stop
+NoFunction,,DdjSxPad,,977B,987B,997B,9A7B,,977B,987B,997B,9A7B,,Sample Slot 4 stop
+NoFunction,,DdjSxPad,,977C,987C,997C,9A7C,,977C,987C,997C,9A7C,,Sample Slot 5 stop
+NoFunction,,DdjSxPad,,977D,987D,997D,9A7D,,977D,987D,997D,9A7D,,Sample Slot 6 stop
+NoFunction,,DdjSxPad,,977E,987E,997E,9A7E,,977E,987E,997E,9A7E,,Sample Slot 7 stop
+NoFunction,,DdjSxPad,,977F,987F,997F,9A7F,,977F,987F,997F,9A7F,,Sample Slot 8 stop
+NoFunction,,Button,9440,,,,,,900D,910D,920D,9360,,FX1 RELEASE FX On
+NoFunction,,Button,9443,,,,,,,,,,,FX1 RELEASE FX On
+NoFunction,,Button,9540,,,,,,,,,,,FX2 RELEASE FX On
+NoFunction,,Button,9543,,,,,,,,,,,FX2 RELEASE FX On
+NoFunction,,Button,9641,,,,,,,,,,,Library Forward (Folder Open)
+NoFunction,,Button,9642,,,,,,,,,,,Library Forward (Folder Open)
+NoFunction,,Button,9663,,,,,,,,,,,Master CUE (All Headphone CUE valid/invalid) (no output)
+NoFunction,,Button,9665,,,,,,,,,,,Library Back (Folder Close)
+NoFunction,,Button,9666,,,,,,,,,,,Area (Change panel type from among several types)
+NoFunction,,Button,9667,,,,,,,,,,,Tag Track
+NoFunction,,Button,9668,,,,,,,,,,,Related Track
+NoFunction,,Button,9678,,,,,,,,,,,Display FX panel (Type1-3) -> OFF -> ...(cyclic)
+NoFunction,,Button,9679,,,,,,,,,,,Display SAMPLER panel (Type1-3) -> OFF -> ...(cyclic)
+NoFunction,,Button,,9016,9116,9216,9316,,,,,,,C.F.assign to deck Left
+NoFunction,,Button,,9017,9117,9217,9317,,,,,,,Vinyl Mode On/Off (for JOG)
+NoFunction,,Button,,9018,9118,9218,9318,,,,,,,C.F.assign to deck Right
+NoFunction,,Button,,901D,911D,921D,931D,,,,,,,Through Crossfader
+NoFunction,,Button,,9646,9647,9648,9649,,,,,,,Beat Grid Adjust
+NoFunction,,Rotary,B400,,,,,,,,,,,FX1 Effect beat down/up
+NoFunction,,Rotary,B410,,,,,,,,,,,Select FX1 RELEASE FX type
+NoFunction,,Rotary,B500,,,,,,,,,,,FX2 Effect beat down/up
+NoFunction,,Rotary,B510,,,,,,,,,,,Select FX2 RELEASE FX type
+NoFunction,,Rotary,B640,,,,,,,,,,,Browse(Track/Folder Select)
+NoFunction,,Rotary,B664,,,,,,,,,,,
+NoFunction,,Value,,B003,B103,B203,B303,,,,,,,Needle Search slide(00-7f)
+NoFunction,,Value,,B028,B128,B228,B328,,,,,,,Needle Search slide(00-7f)
+NoFunction,,Value,,B730,B830,B930,BA30,,,,,,,Sample Slot 1 Level (use Pad velocity)
+NoFunction,,Value,,B731,B831,B931,BA31,,,,,,,Sample Slot 2 Level (use Pad velocity)
+NoFunction,,Value,,B732,B832,B932,BA32,,,,,,,Sample Slot 3 Level (use Pad velocity)
+NoFunction,,Value,,B733,B833,B933,BA33,,,,,,,Sample Slot 4 Level (use Pad velocity)
+NoFunction,,Value,,B734,B834,B934,BA34,,,,,,,Sample Slot 5 Level (use Pad velocity)
+NoFunction,,Value,,B735,B835,B935,BA35,,,,,,,Sample Slot 6 Level (use Pad velocity)
+NoFunction,,Value,,B736,B836,B936,BA36,,,,,,,Sample Slot 7 Level (use Pad velocity)
+NoFunction,,Value,,B737,B837,B937,BA37,,,,,,,Sample Slot 8 Level (use Pad velocity)
+NoFunction,,KnobSlider,B669,,,,,,,,,,,Sampler Volume
+NoFunction,,KnobSliderHiRes,B402,,,,,,,,,,,FX1-1 Effect Depth
+NoFunction,,KnobSliderHiRes,B404,,,,,,,,,,,FX1-2 Effect Depth
+NoFunction,,KnobSliderHiRes,B406,,,,,,,,,,,FX1-3 Effect Depth
+NoFunction,,KnobSliderHiRes,B412,,,,,,,,,,,FX1-1 Effect Depth
+NoFunction,,KnobSliderHiRes,B414,,,,,,,,,,,FX1-2 Effect Depth
+NoFunction,,KnobSliderHiRes,B416,,,,,,,,,,,FX1-3 Effect Depth
+NoFunction,,KnobSliderHiRes,B502,,,,,,,,,,,FX2-1 Effect Depth
+NoFunction,,KnobSliderHiRes,B504,,,,,,,,,,,FX2-2 Effect Depth
+NoFunction,,KnobSliderHiRes,B506,,,,,,,,,,,FX2-3 Effect Depth
+NoFunction,,KnobSliderHiRes,B512,,,,,,,,,,,FX2-1 Effect Depth
+NoFunction,,KnobSliderHiRes,B514,,,,,,,,,,,FX2-2 Effect Depth
+NoFunction,,KnobSliderHiRes,B516,,,,,,,,,,,FX2-3 Effect Depth
+NoFunction,,KnobSliderHiRes,B601,,,,,,,,,,,Crossfader curve adjustment
+NoFunction,,KnobSliderHiRes,B603,,,,,,,,,,,Sampler Volume
+NoFunction,,KnobSliderHiRes,B617,,,,,,,,,,,CH1 CFX Depth
+NoFunction,,KnobSliderHiRes,B618,,,,,,,,,,,CH2 CFX Depth
+NoFunction,,KnobSliderHiRes,B619,,,,,,,,,,,CH3 CFX Depth
+NoFunction,,KnobSliderHiRes,B61A,,,,,,,,,,,CH4 CFX Depth
+NoFunction,,KnobSliderHiRes,B61F,,,,,,,,,,,Crossfader
+NoFunction,,KnobSliderHiRes,,B000,B100,B200,B300,,,,,,,Tempo Control
+NoFunction,,KnobSliderHiRes,,B004,B104,B204,B304,,,,,,,Gain
+NoFunction,,KnobSliderHiRes,,B005,B105,B205,B305,,,,,,,Tempo Control
+NoFunction,,KnobSliderHiRes,,B007,B107,B207,B307,,,,,,,EQ High
+NoFunction,,KnobSliderHiRes,,B00B,B10B,B20B,B30B,,,,,,,EQ Mid
+NoFunction,,KnobSliderHiRes,,B00F,B10F,B20F,B30F,,,,,,,EQ Low
+NoFunction,,KnobSliderHiRes,,B013,B113,B213,B313,,,,,,,CH Fader
+NoFunction,,Indicator,,,,,,,9037,9137,9237,9337,,indicator for Tempo down
+NoFunction,,Indicator,,,,,,,9034,9134,9234,9334,,indicator for Tempo up
